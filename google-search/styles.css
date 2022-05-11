@@ -1,0 +1,39 @@
+.nav-link {
+    color: black;
+}
+
+.fields{
+    width: 50%;
+    border-radius: 1px;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    align-items: baseline;
+}
+
+
+#container{
+    text-align: left;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+#indexform {
+    text-align: center;
+    margin: center;
+    
+}
+
+#indexinput {
+    border-radius: 25px;
+    padding: 20px;
+    width: 400px;
+    height: 3px;
+}
+
+form div {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
