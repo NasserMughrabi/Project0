@@ -1,3 +1,61 @@
+.allLabels{
+    width: 100px;
+    height: 250px;
+    display: block;
+    text-align: left;
+    clear: both;
+    background-color: black;
+    margin-left: 5px;
+}
+
+.l1 {
+    background-color: blue;
+    margin-left: auto;
+    height: 30px;
+}
+
+.input1{
+    background-color: yellowgreen;
+    height: 25;
+    width: 100%;
+}
+
+.allFields{
+    width: 50%;
+    height: 250px;
+    background-color: red;
+    display: block;
+    text-align: left;
+    clear: both;
+    margin-left: 215px;
+    margin-top: -290px;
+
+    /* width: 100px;
+    height: 250px;
+    display: block;
+    text-align: left;
+    clear: both;
+    background-color: black;
+    margin-left: 5px; */
+}
+
+.f1{
+    background-color: blue;
+    margin-left: auto;
+    height: 30px;
+}
+
+
+
+.fpw{
+    width: 20px;
+    display: block;
+    text-align: left;
+    clear: both;
+    background-color: greenyellow;
+    margin-left: 5px;
+}
+
 .nav-link {
     color: black;
 }
