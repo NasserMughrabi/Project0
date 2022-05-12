@@ -1,11 +1,19 @@
-.as{
+/* 
+@Author: Nasser Mughrabi
+@Date: 5/12/2022
+*/
+
+/* add background color to divs to distinguish which
+is where and which belongs to which */
+
+.as {
     width: 20%;
     color: #d93025;
     font-size: 20px;
     margin: 25px 50px;
 }
 
-.border{
+.border {
     border-bottom: 1px solid #ebebeb;
 }
 
@@ -53,11 +61,11 @@ form {
     height: 30px;
 }
 
-.c3r12{
+.c3r12 {
     margin-top: 7px;
 }
 
-.c1r1234{
+.c1r1234 {
     margin-top: 7px;
 }
 
@@ -75,11 +83,11 @@ form {
     font-size: 11px;
 }
 
-.cols3rows4{
+.cols3rows4 {
     margin: 40px 2% 0 45px;
 }
 
-.advancedbutton{
+.advancedbutton {
     width: 137px;
     margin-left: 60.20%;
     padding-top: 20%;
