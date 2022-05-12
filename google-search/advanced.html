@@ -27,7 +27,7 @@
     </div>
 
     <!-- Form -->
-    <form action="https://www.google.com/advanced_search">
+    <form>
 
         <!-- heads-->
         <div class="fpw" id="heads">
@@ -46,61 +46,65 @@
                     all these words:
                 </div>
             </div>
+            <!-- input1 -->
             <div class="c2" id="r1">
-                <input class="i12" id="inputs" type="text">
+                <input class="i12" id="inputs" type="text" name="as_q">
             </div>
             <div class="c3" id="r1">
                 <div class="c3r12">
                     Type the important words: tricolor rat terrier
                 </div>
             </div>
-            
+
             <!-- row 2 -->
             <div class=c1 id="r2">
                 <div class="c1r1234">
                     this exact word or phrase:
                 </div>
             </div>
+            <!-- input2 -->
             <div class="c2" id="r2">
-                <input id="inputs" type="text">
+                <input id="inputs" type="text" name="as_epq">
             </div>
             <div class="c3" id="r2">
                 <div class="c3r12">
                     Put exact words in quotes: "rat terrier"
                 </div>
             </div>
-            
+
             <!-- row 3 -->
             <div class="c1" id="r3">
                 <div class="c1r1234">
                     any of these words:
                 </div>
             </div>
+            <!-- input3 -->
             <div class="c2" id="r3">
-                <input id="inputs" type="text">
+                <input id="inputs" type="text" name="as_oq">
             </div>
             <div class="c3" id="r3">
                 Type OR between all the words you want: miniature OR standard
             </div>
-            
+
             <!-- row 4 -->
             <div class="c1" id="r4">
                 <div class="c1r1234">
                     none of these words:
                 </div>
             </div>
+            <!-- input4 -->
             <div class="c2" id="r4">
-                <input id="inputs" type="text">
+                <input id="inputs" type="text" name="as_eq">
             </div>
             <div class="c3" id="r4">
                 Put a minus sign just before words you don't want: -rodent, -"Jack Russell"
             </div>
 
             <div class="advancedbutton">
-                <input class="submitB" type="submit" value="Advanced Search">
+                <input class="submitB" type="submit" formaction="https://www.google.com/search" value="Advanced Search">
             </div>
         </div>
-        
+
     </form>
 
 </body>
